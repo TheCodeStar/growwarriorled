@@ -142,6 +142,7 @@ if ( ! function_exists( 'x_navbar_searchform_overlay' ) ) :
             <form method="get" id="searchform" class="form-search center-text" action="<?php echo esc_url( home_url( '/' ) ); ?>">
               <label for="s" class="cfc-h-tx tt-upper"><?php _e( 'Type and Press &ldquo;enter&rdquo; to Search', '__x__' ); ?></label>
               <input type="text" id="s" class="search-query cfc-h-tx center-text tt-upper" name="s">
+              <input type="hidden" name="post_type" value="product">
             </form>
           </div>
         </div>
