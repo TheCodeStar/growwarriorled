@@ -90,7 +90,6 @@ require_once( $func_path . '/renew.php' );
 require_once( $func_path . '/icon.php' );
 require_once( $func_path . '/ethos.php' );
 
-
 //
 // Integrated plugins.
 //

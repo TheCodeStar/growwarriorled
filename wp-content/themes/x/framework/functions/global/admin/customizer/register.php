@@ -956,6 +956,9 @@ function x_customizer_options_register( $wp_customize ) {
       $x['set'][] = array( 'x_footer_content', 'refresh' );
       $x['con'][] = array( 'x_footer_content', 'textarea', __( 'Footer Content', '__x__' ), 'x_customizer_section_footer' );
 
+      $x['set'][] = array( 'x_footer_background_image', 'refresh' );
+      $x['con'][] = array( 'x_footer_background_image', 'image', __( 'Footer Background Image', '__x__' ), 'x_customizer_section_footer' );      
+
 
       //
       // Scroll top anchor.

@@ -151,6 +151,13 @@ if ( ! function_exists( 'x_output_generated_styles' ) ) :
         echo x_customizer_get_css();
         do_action( 'x_head_css' );
         echo x_get_option( 'x_custom_styles' );
+        //Custom background image
+        echo '.site {
+                background: #e6edf3 url('.x_get_option( 'x_footer_background_image' ).');
+                background-position: bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+        }';
 
       echo '</style>';
 
