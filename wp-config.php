@@ -93,9 +93,9 @@ $table_prefix  = 'crk_';
  */
 define('WP_DEBUG', false);
 define( 'DISALLOW_FILE_EDIT', true );
-define( 'DISALLOW_FILE_MODS', true );
+// define( 'DISALLOW_FILE_MODS', true );
  # Disable all automatic updates:
- define( 'AUTOMATIC_UPDATER_DISABLED', true );
+ // define( 'AUTOMATIC_UPDATER_DISABLED', true );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
