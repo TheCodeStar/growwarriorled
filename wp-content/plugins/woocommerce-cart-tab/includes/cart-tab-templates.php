@@ -8,7 +8,8 @@ if ( ! function_exists( 'woocommerce_cart_tab_button' ) ) {
 	function woocommerce_cart_tab_button() {
 		global $woocommerce;
 
-		$empty = 'woocommerce-cart-tab--empty';
+		// $empty = 'woocommerce-cart-tab--empty';
+		$empty = 'woocommerce-cart-tab--has-contents';
 
 		if ( intval( $woocommerce->cart->get_cart_contents_count() > 0 ) ) {
 			$empty = 'woocommerce-cart-tab--has-contents';
