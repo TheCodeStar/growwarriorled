@@ -4,7 +4,8 @@
 .x-searchform-overlay .form-search .search-query{
 	border: 1px solid;
 	box-shadow: 5px 5px 1px 1px;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: left;
 	background: #FFF;
+	width: 70%;
 }
