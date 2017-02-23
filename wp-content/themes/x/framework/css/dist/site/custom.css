@@ -9,3 +9,8 @@
 	background: #FFF;
 	width: 70%;
 }
+.x-container.max.width.offset {
+    width: 70%;
+    background: #f7f7f7;
+    border-radius: 8px;
+}
